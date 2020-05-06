@@ -1,0 +1,132 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNEox1ES49J9xtcnnglPUPS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Eric891003/Computational-Thinking-and-Program-Design/blob/master/week8%E4%B8%89%E9%A1%8C\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zLk1EKDDvd-v",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "a404dd82-c930-4566-fc39-496fb9721fda"
+      },
+      "source": [
+        "座號=int(input('請輸入座號'))\n",
+        "組別=(座號-1)//5+1\n",
+        "print('組別為',組別)\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入座號86\n",
+            "組別為 18\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6sQaynJ0vkDZ",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "21cb64ee-1224-4737-c32d-c446d9334b95"
+      },
+      "source": [
+        "r= float(input('請輸入圓的半徑:'))\n",
+        "import math\n",
+        "面積=math.pi*r*r\n",
+        "圓周長=2*math.pi*r\n",
+        "print('圓的面積為',面積)\n",
+        "print('員的周長為',圓周長)"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入圓的半徑:10\n",
+            "圓的面積為 314.1592653589793\n",
+            "員的周長為 62.83185307179586\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DPhgjFvrv5Dl",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "25282c9c-9766-4782-ef5b-bd33fa927be1"
+      },
+      "source": [
+        "攝氏溫度=float(input('請輸入攝氏溫度:'))\n",
+        "華氏溫度=攝氏溫度*9/5+32\n",
+        "print('華氏溫度為',華氏溫度)\n",
+        "\n"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入攝氏溫度:30\n",
+            "華氏溫度為 86.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "F-3AqjSjv_cC",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
